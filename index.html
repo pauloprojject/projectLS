@@ -7,67 +7,69 @@
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-    <nav>           
-        <img src="" alt="">        
-        <ul>
-           <a href=""><li>Quem Somos</li></a>
-           <a href=""><li>Produtos</li></a>
-           <a href=""><li>Colaboradores</li></a>
-           <a href=""><li>Lojas</li></a>
-           <a href=""><li>Contato</li></a>
-        </ul>    
-        <input type="text" id="busca" placeholder="Faça sua busca">        
-    </nav>
+    <header>
+      <nav>           
+          <img src="" alt="">        
+          <ul>
+            <a href=""><li>Quem Somos</li></a>
+            <a href=""><li>Produtos</li></a>
+            <a href=""><li>Colaboradores</li></a>
+            <a href=""><li>Lojas</li></a>
+            <a href=""><li>Contato</li></a>
+          </ul>    
+          <input type="text" id="busca" placeholder="Faça sua busca">        
+      </nav>
+    </header>
+    <main>  
+      <div class="historia">
+          <a href=""><h1>Quem somos</h1></a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi ea harum illo eum aliquam earum molestias odio rerum sequi, commodi quaerat eligendi vero praesentium qui animi quia dolores quis!</p>
+      </div>
 
-    <div class="historia">
-        <a href=""><h1>Quem somos</h1></a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi ea harum illo eum aliquam earum molestias odio rerum sequi, commodi quaerat eligendi vero praesentium qui animi quia dolores quis!</p>
-    </div>
+      <div class="produtos">
+          <a href=""><h1>Produtos</h1></a>
+              <div class="prod">
+                  <img src="" alt="">
+                  <p>lorem ipsum</p>
+                  <input type="number" min="0" max="20" name="" id="">
+              </div>
+      </div>
 
-    <div class="produtos">
-        <a href=""><h1>Produtos</h1></a>
-            <div class="prod">
-                <img src="" alt="">
-                <p>lorem ipsum</p>
-                <input type="number" min="1" max="20" name="" id="">
+
+      <form action="sucesso.html" method="post">
+          <fieldset>
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required> *
             </div>
-        
-    </div>
-
-
-    <form action="sucesso.html" method="post">
-        <fieldset>
-          <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" required> *
-          </div>
-          <div>
-            <label for="assunto">assunto</label>
-            <select name="assunto" id="assunto">
-              <option value="" selected>escolha um assunto</option>
-              <option value="medicamento">Medicamento</option>
-              <option value="perfumaria">Perfumaria</option>
-              <option value="reclamacoes">Reclamações</option>
-            </select>
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email">
-          </div>
-          <div>
-            <label for="telefone">Telefone</label>
-            <input type="tel" name="telefone" id="">
-          </div>
-          <div>
-            <label for="titulo">Título</label>
-            <input type="text" id="titulo" name="titulo">
-          </div>
-          <div>
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem"></textarea>
-          </div>
-        </fieldset>
-        <input type="submit" value="Enviar">
-      </form>
+            <div>
+              <label for="assunto">assunto</label>
+              <select name="assunto" id="assunto">
+                <option value="" selected>escolha um assunto</option>
+                <option value="medicamento">Medicamento</option>
+                <option value="perfumaria">Perfumaria</option>
+                <option value="reclamacoes">Reclamações</option>
+              </select>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email">
+            </div>
+            <div>
+              <label for="telefone">Telefone</label>
+              <input type="tel" name="telefone" id="">
+            </div>
+            <div>
+              <label for="titulo">Título</label>
+              <input type="text" id="titulo" name="titulo">
+            </div>
+            <div>
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+          </fieldset>
+          <input type="submit" value="Enviar">
+        </form>
+      </main>
 </body>
 </html>
