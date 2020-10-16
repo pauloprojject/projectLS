@@ -17,6 +17,7 @@ body{
 
 a{
     text-decoration: none;
+    color: #3f3f3f;
 }
 
 header{
@@ -37,6 +38,12 @@ nav{
 
 #busca{
     margin: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+#busca:focus{
+    outline: none;
 }
 
 ul{
