@@ -49,6 +49,33 @@ h3#pedido{
     text-align: center;
 }
 
+.colaboradores{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 30px;
+    width: 40%;
+}
+
+.cadastro form input{
+    margin: 5px 0;
+    padding: 7px;
+    outline: none;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
