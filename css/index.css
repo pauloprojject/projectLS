@@ -45,6 +45,10 @@ nav img{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.produtos img{
+    width: 150px;
+}
+
 h3#pedido{
     text-align: center;
 }
