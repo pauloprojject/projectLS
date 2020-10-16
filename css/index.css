@@ -21,17 +21,22 @@ ul{
 }
 
 ul li{
-    list-style: none; 
-    margin: 0 2em;   
+    list-style: none;  
+    margin: 0;     
 }
 
 ul a{
     text-decoration: none;
+    padding: 0 2em;
 }
 
 nav input{
     height: 3vh;
     margin-top: 2vh;    
+}
+
+nav img{
+    width: 50px;
 }
 
 .produtos{
@@ -42,4 +47,14 @@ nav input{
 
 h3#pedido{
     text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+footer .logoFooter img{
+    width: 150px;
 }
