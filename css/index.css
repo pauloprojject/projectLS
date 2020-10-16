@@ -43,10 +43,18 @@ nav img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+}
+
+.prod{
+    text-align: center;
 }
 
 .produtos img{
-    width: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 h3#pedido{
