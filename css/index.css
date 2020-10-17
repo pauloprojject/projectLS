@@ -18,7 +18,11 @@ body{
 .back{
     display: flex;
     align-items: center;
-    
+    width: 7vw;
+    background-color: aquamarine;    
+    height: 6vh;
+    border-radius: 30%; 
+       
 }
 
 a{
