@@ -13,22 +13,22 @@
       <nav>           
           <a href=""><img src="/img/baracktocat.jpg" alt=""></a>
           <ul>
-            <a href=""><li>Quem Somos</li></a>
-            <a href=""><li>Produtos</li></a>
-            <a href=""><li>Colaboradores</li></a>
-            <a href=""><li>Cadastro</li></a>
-            <a href=""><li>Contato</li></a>
+            <a href="#somos"><li>Quem Somos</li></a>
+            <a href="#produtos"><li>Produtos</li></a>
+            <a href="#colab"><li>Colaboradores</li></a>
+            <a href="#cadastro"><li>Cadastro</li></a>
+            <a href="#contact"><li>Contato</li></a>
           </ul>    
           <input type="text" id="busca" placeholder="Faça sua busca">        
       </nav>
     </header>
     <main>  
       <div class="historia">
-          <a href=""><h1>Quem somos</h1></a>
+          <a href=""><h1 id="somos">Quem somos</h1></a>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi ea harum illo eum aliquam earum molestias odio rerum sequi, commodi quaerat eligendi vero praesentium qui animi quia dolores quis!</p>
       </div>
 
-      <a href=""><h1>Produtos</h1></a>
+      <a href=""><h1 id="produtos">Produtos</h1></a>
       <div class="produtos">          
             <div class="prod">
                 <img src="img/medicamentos/Atroveran.jpg" alt="">
@@ -69,7 +69,7 @@
       </div>
       <a href=""><h3 id="pedido">Faça seu pedido</h1></a>
     
-        <a href=""><h1>Nossos Fantásticos Colaboradores</h1></a>
+        <a href=""><h1 id="colab">Nossos Fantásticos Colaboradores</h1></a>
         <div class="colaboradores">
             <div class="func">
                 <img src="https://avatars1.githubusercontent.com/u/16522249?s=460&u=e9d49fb0c27e32b83183bf3f1f0deeca088d6856&v=4" alt="">
@@ -86,7 +86,7 @@
         </div>
 
         <div class="cadastro">
-            <a href=""> <h1>Seja Nosso Cliente</h1> </a>
+            <a href=""> <h1 id="cadastro">Seja Nosso Cliente</h1> </a>
             <form action="">
                 <h3>Dados Pessoais</h3>
                 <input type="text" id="nome" placeholder="Nome"> 
@@ -102,7 +102,7 @@
               </form>
         </div>
     </main>
-     <footer>
+     <footer id="contact">
         <div class="sugestao">
             <h3>Sugestões e Reclamações</h3>
             <div>
@@ -135,18 +135,25 @@
               <textarea id="mensagem" name="mensagem"></textarea>
             </div>                  
           <input type="submit" value="Enviar">
-        </div>       
-        
-        <div class="logoFooter">
-            <a href=""><img src="/img/baracktocat.jpg" alt=""></a>
         </div>
         <div class="contato">
-          <a href="#"><i class="fab fa-whatsapp-square"></i></a>
-          <a href="#"><i class="fas fa-phone-square"></i></a>
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
-          <a href="#"><i class="fab fa-instagram-square"></i></a>
-          <a href="#"><i class="fas fa-envelope-square"></i></a>
-          <p>Endereço</p>
+          <div class="squares">
+            <div class="squaresSocial">
+              <div><p>Redes sociais</p></div>
+              <div> 
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+              </div>
+            </div>
+            <div class="rows"><a href="#"><i class="fab fa-whatsapp-square"></i></a><span>(83)9 9999-9999</span></div>
+            <div class="rows"><a href="#"><i class="fas fa-phone-square"></i></a><span>(83) 3228-3228 </span></div>
+            <div class="rows"><a href="#"><i class="fas fa-envelope-square"></i></a><span>aaaaa@naver.com</span></div>
+          </div>
+          <div class="address"><a href="#"><i class="fas fa-map-marked"></i></a> Av. Primeiro de Maio, 720 - <br> Jaguaribe, João Pessoa - PB,<br> 58015-430</div>
+        </div>
+        <div class="logoFooter">
+          <a href=""><img src="/img/baracktocat.jpg" alt=""></a>
         </div>
     </footer>
       

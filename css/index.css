@@ -23,7 +23,13 @@ a{
 header{
     position: -webkit-sticky;
     position: sticky;
-    top: 0
+    top: 0;
+    margin: 0;
+}
+
+main{
+    margin: 0;
+    margin-top: -1.09375vw;
 }
 
 nav{
@@ -52,7 +58,9 @@ nav{
 }
 
 ul{
-    display: flex;    
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 ul li{
@@ -73,6 +81,14 @@ nav input{
 
 nav img{
     width: 50px;
+}
+
+.historia{
+    background-image: url(../img/possivelBG2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
 }
 
 .produtos{
@@ -151,9 +167,43 @@ footer .logoFooter img{
 .fab, .fas{
     font-size: 30px;
     color: #0aafab;
-    margin: 0 5px;
+    margin-left: 0;
+    margin-right: 5px;
 }
 
 .fab:hover, .fas:hover{
     color: #dadada;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.squares{
+    display: flex;
+    flex-direction: column;
+}
+
+.squaresSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .squaresSocial .fab{
+    margin-left: 0;
+    margin-right: 5px;
+} */
+
+.squaresSocial p{
+    margin: 0;
+    padding: 0;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
