@@ -213,3 +213,7 @@ footer .logoFooter img{
     flex-direction: row;
     align-items: center;
 }
+
+#totalFooter{
+    text-align: center;
+}
