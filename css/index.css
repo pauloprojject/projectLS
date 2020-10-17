@@ -42,6 +42,11 @@ nav{
     border-radius: 5px;
 }
 
+#busca::placeholder{
+    opacity: 1;
+    padding-left: 5px;
+}
+
 #busca:focus{
     outline: none;
 }
@@ -141,4 +146,14 @@ footer{
 
 footer .logoFooter img{
     width: 150px;
+}
+
+.fab, .fas{
+    font-size: 30px;
+    color: #0aafab;
+    margin: 0 5px;
+}
+
+.fab:hover, .fas:hover{
+    color: #dadada;
 }
