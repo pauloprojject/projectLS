@@ -101,6 +101,18 @@ nav img{
     background-position: center;
 }
 
+#titleCad{
+    text-align: center;
+}
+
+.cadProducts{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+}
+
 .produtos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
