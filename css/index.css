@@ -18,11 +18,12 @@ body{
 .back{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 7vw;
-    background-color: aquamarine;    
-    height: 6vh;
-    border-radius: 30%; 
-       
+    background-color: #50faff;
+    border-radius: 30px; 
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 a{
@@ -50,6 +51,14 @@ nav{
     margin: 0;
     width: 100vw;
     height: 7vh;
+}
+
+nav .fas{
+    color: #aafdad;
+}
+
+nav .fas:hover{
+    color: #a3b6df;
 }
 
 #busca{
@@ -80,7 +89,7 @@ ul li{
 
 ul a{
     text-decoration: none;
-    padding: 0 2em;
+    margin: 0 2em;
     color: #3f3f3f;
 }
 
@@ -163,15 +172,30 @@ h3#pedido{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 50vw;
     padding: 30px;
-    width: 40%;
+    width: 30%;
+    align-self: flex-start;
+    margin-left: 100px;
 }
 
 .cadastro form input{
     margin: 5px 0;
     padding: 7px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.cadastro input:focus{
     outline: none;
+}
+
+#cadastroButton{
+    width: 130px;
+    align-self: center;
+    border: 0;
+    border-radius: 15px;
+    background-color: #1645;
+
 }
 
 footer{
@@ -186,15 +210,43 @@ footer .logoFooter img{
     width: 150px;
 }
 
-.fab, .fas{
+footer .fab, .fas{
     font-size: 30px;
     color: #0aafab;
     margin-left: 0;
     margin-right: 5px;
 }
 
-.fab:hover, .fas:hover{
+footer .fab:hover, .fas:hover{
     color: #dadada;
+}
+
+footer input, footer select, footer textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 15px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+footer input:focus, footer select:focus, footer textarea:focus{
+    outline: none;
+}
+
+.sugestao div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sugestaoButton{
+    width: 35%;
+    height: 25px;
+    border: 0;
+    border-radius: 15px;
+    background-color: #10f2a3;
+    margin-top: 5px;
 }
 
 .address{
