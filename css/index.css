@@ -285,3 +285,10 @@ footer input:focus, footer select:focus, footer textarea:focus{
 #totalFooter{
     text-align: center;
 }
+
+/* Filtragem */
+
+
+.invisivel {
+    display: none;
+}
