@@ -13,13 +13,16 @@ campoFiltro.addEventListener("input", function(){
             console.log(medicamentos[i])
             var medicamento = medicamentos[i];
             medicamento.classList.add("invisivel");
+            
+            var nomeMed = medicamento.querySelector(".nome-prod").textContent;
 
-            var nomeMed = medicamento.querySelector(".nome-prod");
-            console.log(nomeMed)
+            var filtrar = new RegExp(this.value, "i")
 
-            if (this.value == nomeMed.textContent || this.value.toUpperCase() == nomeMed.textContent.toUpperCase() || this.value.toLowerCase() == nomeMed.textContent.toLowerCase()) {
-                medicamento.classList.remove("invisivel");
-             }
+            if (filtrar.test(nomeMed)) {
+                medicamento.classList.remove("invisivel")
+            } else {
+                medicamento.classList.add("invisivel")
+            }
         }
     }
     else {
