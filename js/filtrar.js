@@ -16,19 +16,18 @@ campoFiltro.addEventListener("input", function(){
             
             var nomeMed = medicamento.querySelector(".nome-prod").textContent;
 
-            var filtrar = new RegExp(this.value, "i")
+            var filtrar = new RegExp(this.value, "i");
 
             if (filtrar.test(nomeMed)) {
-                medicamento.classList.remove("invisivel")
+                medicamento.classList.remove("invisivel");
             } else {
-                medicamento.classList.add("invisivel")
-            }
-        }
-    }
-    else {
+                medicamento.classList.add("invisivel");
+            };
+        };
+    } else {
         for (var i = 0; i < medicamentos.length; i++) {
             var medicamento = medicamentos[i];
             medicamento.classList.remove("invisivel");
-        }
-    }
+        };
+    };
 });
