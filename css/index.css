@@ -31,19 +31,19 @@ a{
     color: #3f3f3f;
 }
 
-header{
+header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     margin: 0;
 }
 
-main{
+main {
     margin: 0;
     margin-top: -1.09375vw;
 }
 
-nav{
+nav {
     display: flex;    
     justify-content: space-around;
     align-items: center;
@@ -53,7 +53,7 @@ nav{
     height: 7vh;
 }
 
-nav .fas{
+nav .fas {
     color: #aafdad;
 }
 
@@ -102,12 +102,16 @@ nav img{
     width: 50px;
 }
 
-.historia{
+.historia {
     background-image: url(../img/possivelBG2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     background-position: center;
+}
+
+.historia > p {
+    margin-left: 15px;
 }
 
 #titleCad{
@@ -121,6 +125,7 @@ nav img{
     text-align: center;
     align-items: center;
 }
+
 
 .produtos{
     display: grid;
@@ -157,11 +162,11 @@ h3#pedido{
     border-radius: 50%;
 }
 
-.colaboradores p{
+.colaboradores p {
     font-size: 22px;
 }
 
-.cadastro{
+.cadastro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +179,6 @@ h3#pedido{
     flex-direction: column;
     padding: 30px;
     width: 30%;
-    align-self: flex-start;
     margin-left: 100px;
 }
 
@@ -246,7 +250,7 @@ footer input:focus, footer select:focus, footer textarea:focus{
     border: 0;
     border-radius: 15px;
     background-color: #10f2a3;
-    margin-top: 5px;
+    margin: 5px 0 20px 0  
 }
 
 .address{
@@ -291,4 +295,23 @@ footer input:focus, footer select:focus, footer textarea:focus{
 
 .invisivel {
     display: none;
+}
+
+#filtrar-medicamentos {
+    width: 200px;
+}
+
+.filtragem > label, #contact > div.sugestao > label {
+    padding-right: 10px;
+}
+
+#produtos, #somos, #colab, .filtragem  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#contact > div.sugestao > form > div > label {
+    padding-right: 10px;
 }

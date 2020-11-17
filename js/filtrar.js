@@ -1,7 +1,3 @@
-
-
-
-
 var campoFiltro = document.querySelector("#filtrar-medicamentos");
 
 campoFiltro.addEventListener("input", function(){
