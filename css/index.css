@@ -48,7 +48,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: #4ADBC8;
-    margin: 0;
     width: 100vw;
     height: 7vh;
 }
@@ -99,7 +98,8 @@ nav input{
 }
 
 nav img{
-    width: 50px;
+    width: 75px;
+    margin-top: 0.5em;
 }
 
 .historia {
