@@ -1,4 +1,4 @@
-# Projeto de Linguagens de Script
+# Projeto de Linguagens de Script - 2020.1
 Equipe:
 * Alecsander Camilo de Sousa Lima - 20192370010
 * Jefferson Marcelo Oliveira Da Silva - 20192370036 
