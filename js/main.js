@@ -4,10 +4,11 @@ prod.map(coin => {
   console.log(coin.Name)
 })
 
-const coinsHTML = prod.map(coin => {
+const coinsHTML = prod.map(products => {
     return `<div class="coin">
-          <p>${coin.FullName}</p>
-          <p class="quant">Quantidade: ${coin.TotalCoinSupply}</p>
+          <img src="${products.ImgUrl}">
+          <p class="prod">${products.Name}</p>
+          <p class="quant">Quantidade: ${products.Quantidade}</p>
         </div>`
   })
   .join('')
