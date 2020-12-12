@@ -1,13 +1,10 @@
 const coinsContainer = document.querySelector('#listaprod')
+// const prodi = prod
+prod.map(coin => {
+  console.log(coin.Name)
+})
 
-const coinsData = Object.values(coins.Data)
-  .map(coin => {
-    return {
-      "name": coin.FullName
-    }
-  })
-
-const coinsHTML = coinsData.map(coin => {
+const coinsHTML = prod.map(coin => {
     return `<div class="coin">
           <p>${coin.FullName}</p>
           <p class="quant">Quantidade: ${coin.TotalCoinSupply}</p>
