@@ -5,9 +5,9 @@ prod.map(coin => {
 })
 
 const coinsHTML = prod.map(products => {
-    return `<div class="coin">
+    return `<div class="prod">
           <img src="${products.ImgUrl}">
-          <p class="prod">${products.Name}</p>
+          <p class="nome-prod">${products.Name}</p>
           <p class="quant">Quantidade: ${products.Quantidade}</p>
         </div>`
   })
