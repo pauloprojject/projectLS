@@ -1,8 +1,5 @@
 const productsContainer = document.querySelector('#listaprod')
 
-prod.map(product => {
-  console.log(product.Name)
-})
 
 const productsHTML = prod.map(products => {
     return `<div class="prod">
@@ -15,4 +12,35 @@ const productsHTML = prod.map(products => {
       })
   .join('')
 
-productsContainer.innerHTML = productsHTML
+let ulr = window.location.href
+let a = ulr.split('/')
+if (a[3] !== 'pages'){
+  productsContainer.innerHTML = productsHTML
+}
+
+let inserir = () => {
+  let a = document.querySelector('.descricao span')
+  let b = document.querySelector('.descricao h1')
+  let c = document.querySelector('.descricao p')
+  let d = document.querySelector('.preco span')
+  let e = document.querySelector('.detalhes p')
+  let url = window.location.href
+  f = url.split('/')
+  g = f[4].split('.')
+  prod.map(item => {
+    if (item.Name == g[0]){
+      a.innerHTML = item.IdProduto
+      b.innerHTML = item.Name
+      c.innerHTML = item.FullName
+      d.innerHTML = item.Value
+      e.innerHTML = item.Description
+    }
+  })
+}
+
+let url = window.location.href
+let b = ulr.split('/')
+if (b[3] === 'pages'){
+  inserir()
+}
+
