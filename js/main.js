@@ -1,10 +1,10 @@
-const coinsContainer = document.querySelector('#listaprod')
-// const prodi = prod
-prod.map(coin => {
-  console.log(coin.Name)
+const productsContainer = document.querySelector('#listaprod')
+
+prod.map(product => {
+  console.log(product.Name)
 })
 
-const coinsHTML = prod.map(products => {
+const productsHTML = prod.map(products => {
     return `<div class="prod">
           <a href="pages/${products.Name}.html">
           <img src="${products.ImgUrl}"></a>
@@ -12,7 +12,7 @@ const coinsHTML = prod.map(products => {
           <p class="quant">Quantidade: ${products.Quantidade}</p>
           
         </div>`
-  })
+      })
   .join('')
 
-coinsContainer.innerHTML = coinsHTML
+productsContainer.innerHTML = productsHTML
