@@ -48,6 +48,6 @@ let inserir = () => {
 }
 
 let b = ulr.split('/')
-if (b[3] === 'pages'){
+if (b[4] === 'pages'){
   inserir()
 }
