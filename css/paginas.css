@@ -152,9 +152,10 @@ ul a{
       align-items: center;
   };
 
+
   .preco span {
-    font-size: 26px;
-    font-weight: 300;
+    font-size: 200px;
+    font-weight: bold;
     color: #43474D;
     margin-right: 20px;
   }
@@ -167,7 +168,7 @@ ul a{
     color: #FFFFFF;
     text-decoration: none;
     padding: 12px 20px;
-    margin-left: 2px;
+    margin-left: 40px;
     transition: all .5s;
   }
 
