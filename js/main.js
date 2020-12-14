@@ -26,7 +26,7 @@ let inserir = () => {
   let e = document.querySelector('.detalhes p')
   let url = window.location.href
   f = url.split('/')
-  g = f[4].split('.')
+  g = f[5].split('.')
   prod.map(item => {
     if (item.Name == g[0]){
       a.innerHTML = `Referência: #${item.IdProduto}`
