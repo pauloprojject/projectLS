@@ -27,6 +27,7 @@ let inserir = () => {
   let url = window.location.href
   f = url.split('/')
   g = f[5].split('.')
+  console.log(f[5])
   prod.map(item => {
     if (item.Name == g[0]){
       a.innerHTML = `Referência: #${item.IdProduto}`
@@ -48,6 +49,7 @@ let inserir = () => {
 }
 
 let b = ulr.split('/')
+console.log(b[4])
 if (b[4] === 'pages'){
   inserir()
 }
