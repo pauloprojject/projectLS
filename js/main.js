@@ -14,7 +14,7 @@ const productsHTML = prod.map(products => {
 
 let ulr = window.location.href
 let a = ulr.split('/')
-if (a[3] !== 'pages'){
+if (a[4] == 'index.html'){
   productsContainer.innerHTML = productsHTML
 }
 
