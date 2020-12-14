@@ -29,7 +29,7 @@ let inserir = () => {
   g = f[4].split('.')
   prod.map(item => {
     if (item.Name == g[0]){
-      a.innerHTML = item.IdProduto
+      a.innerHTML = `Referência: ${item.IdProduto}`
       b.innerHTML = item.Name
       c.innerHTML = item.FullName
       d.innerHTML = item.Value
