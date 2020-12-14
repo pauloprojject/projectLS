@@ -182,7 +182,11 @@ ul a{
   }
 
   .voltar {
-    color: green;
+    color: #64af3d;
     font-size: 50px;
     margin-left: 15px;
+  }
+
+  .voltar:hover {
+    color: green;
   }
