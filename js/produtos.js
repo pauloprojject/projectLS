@@ -3,7 +3,7 @@ const prod = [
             "Name": "Atroveran",
             "IdProduto": "4736",
             "FullName": "Atroveran Dip 1g Com 20 Comprimidos",
-            "Value": "9,90",
+            "Value": "R$ 9,90",
             "Description": "Atroveran Dip é um potente analgésico contra as dores e cólicas do período menstrual, e possui 1g de Dipirona em sua formulação.",
             "ImgUrl": "img/medicamentos/atroveran.png",
             "Quantidade": "457"
@@ -18,7 +18,7 @@ const prod = [
             "Quantidade": "200"
         },
         {
-            "Name": "Biotônico-Fontoura",
+            "Name": "Biotonico-Fontoura",
             "IdProduto": "4172",
             "FullName": "Biotônico Fontoura Suplemento de Ferro Original 400ml",
             "Value": "R$ 21,90",
@@ -72,7 +72,7 @@ const prod = [
             "Quantidade": "50"
         },
         {
-            "Name": "Whey Protein",
+            "Name": "Whey-Protein",
             "IdProduto": "8932",
             "FullName": "WHEY PROTEIN CONCENTRADO - POTE 900G",
             "Value": "R$ 159,90",

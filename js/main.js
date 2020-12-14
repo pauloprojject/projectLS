@@ -36,11 +36,18 @@ let inserir = () => {
       e.innerHTML = item.Description
     }
   })
+  if (b.innerHTML == 'Whey-Protein'){
+    j = b.innerHTML
+    console.log(j.split('-'))
+    b.innerHTML = j.split('-').join(' ')
+  }
+  if (b.innerHTML == 'Biotonico-Fontoura'){
+    j = b.innerHTML
+    b.innerHTML = j.replace('o', 'ô')
+  }
 }
 
-let url = window.location.href
 let b = ulr.split('/')
 if (b[3] === 'pages'){
   inserir()
 }
-
